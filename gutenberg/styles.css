@@ -1,13 +1,89 @@
-body { margin:5%; background:#faebd0; text-align:justify}
-P { text-indent: 1em; margin-top: .25em; margin-bottom: .25em; }
-H1,H2,H3,H4,H5,H6 { text-align: center; margin-left: 15%; margin-right: 15%; }
-hr  { width: 50%; text-align: center;}
-.foot { margin-left: 20%; margin-right: 20%; text-align: justify; text-indent: -3em; font-size: 90%; }
-blockquote {font-size: 97%; font-style: italic; margin-left: 10%; margin-right: 10%;}
-.mynote    {background-color: #DDE; color: #000; padding: .5em; margin-left: 10%; margin-right: 10%; font-family: sans-serif; font-size: 95%;}
-.toc       { margin-left: 10%; margin-bottom: .75em;}
-.toc2      { margin-left: 20%;}
-div.fig { display:block; margin:0 auto; text-align:center; }
-.figleft   {float: left; margin-left: 0%; margin-right: 1%;}
-.figright  {float: right; margin-right: 0%; margin-left: 1%;}
-pre     { font-style: italic; font-size: 90%; margin-left: 10%;}
+body { 
+    margin:5%; 
+    background:#F5DEB3; 
+    text-align:justify}
+P { 
+    text-indent: 1em; 
+    margin-top: .25em; 
+    margin-bottom: .25em; 
+    font-family: 'Merriweather', Georgia,; 
+    line-height: 2em; 
+    text-align: left;
+}
+H1,H2,H3,H4,H5,H6 { 
+    text-align: center; 
+    line-height: 1em; 
+    margin-left: 15%; 
+    margin-right: 15%;
+    font-family: Trattatello, fantasy;
+    text-transform: uppercase;
+}
+hr { 
+    width: 50%; 
+    text-align: center;  
+    background-color: #778899;
+    height: 1px; 
+    border: 0;
+}
+
+/* table of content */
+blockquote {
+    font-size: 97%;
+    margin: 0 auto; 
+    line-height: 0.5em; 
+}
+.toc { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+.toc big{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+pre { 
+    font-style: italic; 
+    font-size: 90%; 
+    margin-left: 10%;
+}
+table {
+    margin: auto; 
+    width: 50%;}
+big {
+    font-family:Trattatello, fantasy; 
+    text-align:center;
+}
+a {
+    color:#454130;
+    font-weight: bold;
+    font-family: Trattatello, fantasy; 
+    letter-spacing: 0.3em;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: #800000;
+}
+
+/* images */
+div.fig { 
+    display:block; 
+    margin:0 auto; 
+    text-align:center; 
+}
+.fig img {
+    height: 40%;
+    width: 40%; 
+}
+.caption{
+    color: #2F2A1B;
+    text-transform: uppercase;
+    font-family: Trattatello, fantasy; 
+    text-align:center;
+}
