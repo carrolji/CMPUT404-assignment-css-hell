@@ -1,23 +1,24 @@
 body {
     font-family: "Lato", sans-serif; 
     margin: 0 auto;
+    background-color: white;
 }
 p {
     line-height: 2em;
 }
-ul {
+.navbar ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-left: 25px;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(31, 67, 74);
   }
   
-li {
+.navbar li {
     float: left;
 }
 
-li a {
+.navbar li a {
     display: block;
     color: white;
     text-align: center;
@@ -25,31 +26,16 @@ li a {
     text-decoration: none;
     text-transform: uppercase;
 }
-
 li a:hover {
-    background-color: #111;
-}
-
-.sidebar {
-    height: 100%;
-    width: 25%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background-color:red;
-    overflow-x: hidden;
-    padding-top: 20px;
-    text-align: center;
+    background-color: rgb(51, 111, 123);
 }
 .main{
     padding: 25px;
 }
 .header {
-    width: 75%;
-    margin-left: 140px; /* Same width as the sidebar + left position in px */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
+    margin-left: 25px; 
+    font-size: 28px;
+    color:rgb(41, 89, 97);
 } 
 img{
     object-fit: cover;
@@ -63,13 +49,29 @@ img{
     width: 20%;
 }
 .column2 {
-    float: left;
+    display: inline-block;
     width: 50%;
     
+}
+.column2 li{
+    line-height: 2em;
 }
 .column3 {
     float: right;
     width: 25%;
+    background-color:rgb(42, 88, 97);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
 }
+h1,h2{
+    letter-spacing: 0.1em;
+}
+h3,h4{
+    letter-spacing: 0.08em;
+}
+
+
 
   
